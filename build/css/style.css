@@ -1347,6 +1347,32 @@ video {
   transition-duration: 500ms;
 }
 
+a[data-tool-tip] {
+  position: relative;
+}
+
+a[data-tool-tip]::after {
+  content: attr(data-tool-tip);
+  padding:1em 1em;
+  position:absolute;
+  top: auto;
+  text-align: center;
+  display:block;
+  max-width:10rem;
+  font-size: .75rem;
+  background-color: darkslategray;
+  color: white;
+  border:3px white solid;
+  border-radius: 7px;
+  transform:scale(0);
+  z-index: 10;
+}
+
+a[data-tool-tip]:hover::after {
+  transform:scale(1);
+  transition:transform 0.5s;
+}
+
 #logoBody{
   font-size: 2rem;
   background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
