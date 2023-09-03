@@ -1,7 +1,0 @@
- <span style="display:inline-block; transform: rotate(272deg)">
-            🦀
-            </span>
-               Crabs
-              <span id="rotate-span" style="display:inline-block; transform: rotate(142deg);">
-            🦀
-            </span>
