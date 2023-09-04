@@ -1121,6 +1121,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-20{
+  padding: 5rem;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -1400,11 +1404,6 @@ video {
 .text-varLIGHTBLUEFEATHER{
   --tw-text-opacity: 1;
   color: rgb(65 154 255 / var(--tw-text-opacity));
-}
-
-.text-varMEDBLUEFEATHER{
-  --tw-text-opacity: 1;
-  color: rgb(42 97 161 / var(--tw-text-opacity));
 }
 
 .text-white{
