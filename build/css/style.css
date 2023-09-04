@@ -1368,6 +1368,10 @@ video {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
+.text-transparent{
+  color: transparent;
+}
+
 .text-varBoneWhite{
   --tw-text-opacity: 1;
   color: rgb(255 249 215 / var(--tw-text-opacity));
