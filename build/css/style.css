@@ -590,6 +590,10 @@ video {
   left: 0px;
 }
 
+.right-1{
+  right: 0.25rem;
+}
+
 .right-10{
   right: 2.5rem;
 }
@@ -628,6 +632,10 @@ video {
 
 .z-\[55\]{
   z-index: 55;
+}
+
+.z-0{
+  z-index: 0;
 }
 
 .m-3{
@@ -869,16 +877,12 @@ video {
   scroll-margin-top: 6rem;
 }
 
-.scroll-mt-\[7rem\]{
-  scroll-margin-top: 7rem;
-}
-
-.scroll-mt-96{
-  scroll-margin-top: 24rem;
-}
-
 .scroll-mt-52{
   scroll-margin-top: 13rem;
+}
+
+.scroll-mt-\[7rem\]{
+  scroll-margin-top: 7rem;
 }
 
 .flex-row{
@@ -1067,6 +1071,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-varLIGHTBLUEFEATHER{
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 154 255 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1184,6 +1193,10 @@ video {
   padding-top: 3.5rem;
 }
 
+.pt-4{
+  padding-top: 1rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1287,6 +1300,27 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[\.5rem\]{
+  font-size: .5rem;
+}
+
+.text-\[\.1rem\]{
+  font-size: .1rem;
+}
+
+.text-\[1rem\]{
+  font-size: 1rem;
+}
+
+.text-\[\.74rem\]{
+  font-size: .74rem;
 }
 
 .font-bold{
@@ -2206,6 +2240,10 @@ label{
 }
 
 @media (min-width: 768px){
+  .md\:hidden{
+    display: none;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
