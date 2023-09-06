@@ -75,7 +75,7 @@
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
-  transition: ease-in .35s;
+  transition: ease-in .25s;
   bottom:-2.75rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;

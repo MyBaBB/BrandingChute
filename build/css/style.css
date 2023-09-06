@@ -590,10 +590,6 @@ video {
   left: 0px;
 }
 
-.right-1{
-  right: 0.25rem;
-}
-
 .right-10{
   right: 2.5rem;
 }
@@ -614,10 +610,6 @@ video {
   top: 1rem;
 }
 
-.top-8{
-  top: 2rem;
-}
-
 .z-0{
   z-index: 0;
 }
@@ -630,12 +622,16 @@ video {
   z-index: 30;
 }
 
+.z-40{
+  z-index: 40;
+}
+
 .z-50{
   z-index: 50;
 }
 
-.z-\[55\]{
-  z-index: 55;
+.z-\[40\]{
+  z-index: 40;
 }
 
 .m-3{
@@ -1125,6 +1121,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -1277,10 +1277,6 @@ video {
   font-size: 0.65rem;
 }
 
-.text-\[20px\]{
-  font-size: 20px;
-}
-
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1325,6 +1321,11 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-cyan-700{
+  --tw-text-opacity: 1;
+  color: rgb(14 116 144 / var(--tw-text-opacity));
 }
 
 .text-cyan-800{
@@ -1482,7 +1483,7 @@ video {
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
-  transition: ease-in .35s;
+  transition: ease-in .25s;
   bottom:-2.75rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
@@ -1917,12 +1918,6 @@ label{
   background-color: rgb(215 45 50 / var(--tw-bg-opacity));
 }
 
-.before\:bg-white::before{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .before\:font-serif::before{
   content: var(--tw-content);
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -2035,12 +2030,6 @@ label{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(65 154 255 / var(--tw-bg-opacity));
-}
-
-.after\:bg-white::after{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .after\:font-serif::after{
@@ -2156,10 +2145,6 @@ label{
 .active\:bg-varLIGHTBLUEFEATHER:active{
   --tw-bg-opacity: 1;
   background-color: rgb(65 154 255 / var(--tw-bg-opacity));
-}
-
-.active\:text-\[rgba\(120\2c 120\2c 120\2c 1\)\]:active{
-  color: rgba(120,120,120,1);
 }
 
 .active\:text-varDARKBEAK:active{
