@@ -1,0 +1,70 @@
+
+ .whoopieCushion:hover::before, 
+  .whoopieCushion:hover::after {
+     --scale: 1;
+    
+
+  }
+.whoopieCushion::before {
+  content:'';
+  background-color: #10074d;
+  bottom: .25rem;
+  width:max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top center;
+  transition: 1s;
+  bottom:-2.75rem;
+  border-radius: 10px;
+  color:wheat;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+}
+.whoopieCushion::after {
+  content:'';
+  top: .4rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin:top center;
+  transition:100ms;
+  bottom:-1.75rem;
+  border: 15px solid transparent;
+  border-bottom:#333  15px solid;
+  color:wheat;
+  
+  
+  --scale: 0;
+  z-index: 2;
+}
+
+
+    xxxxxxxxxxxxxxxxxxx    html below    xxxxxxxxxxxxxxxxxxxxxx
+      
+      <div
+      class="whoopieCushion" style="display: inline; position: relative;"
+      data-tool-tip="We offer a Customized Landing Page that drives traffic to your E-commerce Website.">
+
+           <a 
+             href="#AboutUs" 
+             class=" text-amber-600 hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER">
+            <span
+              class=" font-rye"
+              style="
+                font-size: 20px;
+                white-space: nowrap;
+                text-shadow: 2px 2px 3px #1c0303;
+                ">
+              About Us
+            </span>
+          </a>
+          
+      </div>

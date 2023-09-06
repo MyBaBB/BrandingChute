@@ -10,30 +10,122 @@
        min-height: calc(100vh - 68px)
    }
  }
- a[data-tool-tip] {
+/*  a[data-tool-tip] {
   position: relative;
-  
+  } */
+  .whoopieCushion:hover::before, 
+  .whoopieCushion:hover::after {
+     --scale: 1;
+
   }
-  a[data-tool-tip]::after {
-   content: attr(data-tool-tip);
-   padding:1em 1em;
-   position:absolute;
-   top: auto;
-   text-align: center;
-   display:block;
-   max-width:10rem; 
-   font-size: .75rem;
-   background-color: darkslategray;
-   color: white;
-   border:3px white solid; border-radius: 7px;
-   transform:scale(0);
-   z-index: 10;
-  
+.whoopieCushion::before {
+  content:'';
+  background-color:#412a32;
+  bottom: .25rem;
+  width:max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top center;
+  transition: ease-in .35s;
+  bottom:-2.75rem;
+  border: 0.3px solid #fff9d7;
+  border-radius: 10px;
+  color:fff9d7;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+}
+.whoopieCushion::after {
+  content:'';
+  top: .4rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin:bottom center;
+  transition:.35s ;
+  bottom:-1.75rem;
+  border: 15px solid transparent;
+  border-bottom:#cfa69d 10px solid;
+  color:#fff9d7;
+  --scale: 0;
+  z-index: 2;
+}
+
+
+  .whoopieCushion1:hover::before, 
+  .whoopieCushion1:hover::after {
+     --scale: 1;
+
   }
-  a[data-tool-tip]:hover::after {
-   transform:scale(1);
-   transition:transform 0.5s;
-  }
+.whoopieCushion1::before {
+  content:'';
+  background-color:#412a32;
+  bottom: .25rem;
+  width:max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top center;
+  transition: ease-in .35s;
+  bottom:-2.75rem;
+  border: 0.3px solid #fff9d7;
+  border-radius: 10px;
+  color:fff9d7;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left:14rem;
+}
+.whoopieCushion1::after {
+  content:'';
+  top: .4rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin:bottom center;
+  transition:.35s ;
+  bottom:-1.75rem;
+  border: 15px solid transparent;
+  border-bottom:#cfa69d 10px solid;
+  color: #fff9d7;
+  --scale: 0;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
    
  #logoBody{
   font-size: 2rem;
@@ -61,7 +153,7 @@
   }
 
   #header {
-    z-index: 50;
+    z-index: 5400;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12); 
   }
 
