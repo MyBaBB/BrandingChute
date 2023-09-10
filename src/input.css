@@ -121,9 +121,9 @@ position: absolute;
 content: attr(data-tool-tip);
 padding:  .1em .1em .2em .1em;
 left: 50%;
-transform: translateX(-50%) translateY(50%) scale(var(--scale));
+transform: translateX(-30%) translateY(50%) scale(var(--scale));
 transform-origin: top center;
-transition: 1s;
+transition: 800ms;
 bottom:-2.75rem;
 border-radius: 10px;
 border: .5px solid wheat;
@@ -141,12 +141,12 @@ height: 15px;
 position: absolute;
 padding:  .1em .1em .2em .1em;
 left: 50%;
-transform: translateX(-50%) translateY(50%) scale(var(--scale));
-transform-origin:top center;
-transition:100ms;
+transform: translateX(-50%) translateY(20%) scale(var(--scale));
+transform-origin:bottom center;
+transition:1s;
 bottom:-1.75rem;
 border: 15px solid transparent;
-border-bottom:#333  15px solid;
+border-bottom:wheat  15px solid;
 color:wheat;
 
 
