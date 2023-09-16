@@ -13,12 +13,12 @@
 /*  a[data-tool-tip] {
   position: relative;
   } */
-  .whoopieCushion:hover::before, 
-  .whoopieCushion:hover::after {
+  .crabCushion:hover::before, 
+  .crabCushion:hover::after {
      --scale: 1;
 
   }
-.whoopieCushion::before {
+.crabCushion::before {
   content:'';
   background-color:#412a32;
   bottom: .25rem;
@@ -28,9 +28,9 @@
   padding:  .1em .1em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin: top center;
+  transform-origin:bottom center;
   transition: ease-in .35s;
-  bottom:-2.75rem;
+  bottom:2rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
   color:fff9d7;
@@ -39,7 +39,7 @@
   --scale: 0;
   z-index: 3;
 }
-.whoopieCushion::after {
+.crabCushion::after {
   content:'';
   top: .4rem;
   width: 15px;
@@ -48,17 +48,18 @@
   padding:  .1em .1em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin:bottom center;
+  transform-origin:top center;
   transition:.35s ;
-  bottom:-1.75rem;
+  top:-.75rem;
   border: 15px solid transparent;
-  border-bottom:#cfa69d 10px solid;
+  border-top:#cfa69d 10px solid;
   color:#fff9d7;
   --scale: 0;
   z-index: 2;
 }
 
 
+  
   .whoopieCushion1:hover::before, 
   .whoopieCushion1:hover::after {
      --scale: 1;
@@ -74,7 +75,7 @@
   padding:  .1em .1em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin: top center;
+  transform-origin: top left;
   transition: ease-in .25s;
   bottom:-2.75rem;
   border: 0.3px solid #fff9d7;
@@ -94,7 +95,7 @@
   position: absolute;
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-10%) scale(var(--scale));
+  transform: translateX(-50%) scale(var(--scale));
   transform-origin:bottom center;
   transition:.35s ;
   bottom:-1.75rem;
@@ -104,7 +105,7 @@
   --scale: 0;
   z-index: 2;
 }
-  .whoopieCushion:hover::before, 
+.whoopieCushion2:hover::before, 
   .whoopieCushion2:hover::after {
      --scale: 1;
 
@@ -119,7 +120,7 @@
   padding:  .1em .1em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin: top center;
+  transform-origin: top c;
   transition: ease-in .25s;
   bottom:-2.75rem;
   border: 0.3px solid #fff9d7;
@@ -129,7 +130,7 @@
   padding-right: 2rem;
   --scale: 0;
   z-index: 3;
-  left:14rem;
+  
 }
 .whoopieCushion2::after {
   content:'';
@@ -139,7 +140,7 @@
   position: absolute;
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-10%) scale(var(--scale));
   transform-origin:bottom center;
   transition:.35s ;
   bottom:-1.75rem;
@@ -149,7 +150,52 @@
   --scale: 0;
   z-index: 2;
 }
+.whoopieCushion3:hover::before, 
+  .whoopieCushion3:hover::after {
+     --scale: 1;
 
+  }
+.whoopieCushion3::before {
+  content:'';
+  background-color:#412a32;
+  bottom: .25rem;
+  width:max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top right;
+  transition: ease-in .25s;
+  bottom:-2.75rem;
+  border: 0.3px solid #fff9d7;
+  border-radius: 10px;
+  color:fff9d7;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left: -4rem;
+  
+}
+.whoopieCushion3::after {
+  content:'';
+  top: .4rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-10%) scale(var(--scale));
+  transform-origin:bottom center;
+  transition:.35s ;
+  bottom:-1.75rem;
+  border: 15px solid transparent;
+  border-bottom:#cfa69d 10px solid;
+  color: #fff9d7;
+  --scale: 0;
+  z-index: 2;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 .secretPassword:hover::before, 
 .secretPassword:hover::after {
