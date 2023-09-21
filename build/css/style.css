@@ -1420,7 +1420,7 @@ video {
   padding:  .1em .1em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin: top c;
+  transform-origin: top center;
   transition: ease-in .25s;
   bottom:-2.75rem;
   border: 0.3px solid #fff9d7;
@@ -1442,7 +1442,7 @@ video {
   left: 50%;
   transform: translateX(-10%) scale(var(--scale));
   transform-origin:bottom center;
-  transition:.35s ;
+  transition:.35s;
   bottom:-1.75rem;
   border: 15px solid transparent;
   border-bottom:#cfa69d 10px solid;
@@ -1623,6 +1623,44 @@ label{
   height: 500px;
 }
 
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 45vw;
+  height: 45vh;
+  background-color: #cfa69d;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: '';
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #744888;
+  border-radius: 50%;
+  animation:loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
 .hoverdiv {
   display: flex;
   position: relative;
@@ -1747,6 +1785,10 @@ label{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
         inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
 
 .toggle-btn>div::after{
   --tw-translate-y: 0px;
