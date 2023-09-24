@@ -622,12 +622,12 @@ video {
   z-index: 55;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .m-0{
   margin: 0px;
+}
+
+.m-auto{
+  margin: auto;
 }
 
 .mx-auto{
@@ -679,20 +679,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-14{
+  margin-top: 3.5rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
 }
 
 .block{
@@ -835,6 +831,10 @@ video {
   scroll-margin: 5rem;
 }
 
+.scroll-mt-10{
+  scroll-margin-top: 2.5rem;
+}
+
 .scroll-mt-20{
   scroll-margin-top: 5rem;
 }
@@ -853,10 +853,6 @@ video {
 
 .scroll-mt-\[7rem\]{
   scroll-margin-top: 7rem;
-}
-
-.scroll-mt-10{
-  scroll-margin-top: 2.5rem;
 }
 
 .flex-row{
@@ -2198,6 +2194,16 @@ label{
 .hover\:bg-varMEDDUCKHEAD:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(40 79 53 / var(--tw-bg-opacity));
+}
+
+.hover\:text-xl:hover{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.hover\:text-red-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .hover\:text-varLIGHTBEAK:hover{
