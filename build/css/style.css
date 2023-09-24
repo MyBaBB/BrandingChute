@@ -2201,9 +2201,9 @@ label{
   line-height: 1.75rem;
 }
 
-.hover\:text-red-500:hover{
+.hover\:text-blue-400:hover{
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
 .hover\:text-varLIGHTBEAK:hover{
