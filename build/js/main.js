@@ -26,7 +26,7 @@ const initApp = () => {
 document.addEventListener('DOMContentLoaded', initApp)
 
 
-// Get the image elements by their IDs
+/* // Get the image elements by their IDs
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 
@@ -46,7 +46,7 @@ function toggleImages() {
 }
 // Call the toggleImages function every 5 seconds
 setInterval(toggleImages, 4000);
-
+ */
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
