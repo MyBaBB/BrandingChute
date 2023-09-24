@@ -20,7 +20,7 @@
   }
 .crabCushion::before {
   content:'';
-  background-color:#412a32;
+  background-color:#419aff;
   bottom: .25rem;
   width:max-content;
   position: absolute;
@@ -33,7 +33,7 @@
   bottom:2rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
-  color:fff9d7;
+  color:#fff9d7;
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -50,7 +50,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin:top center;
   transition:.35s ;
-  top:-.75rem;
+  top:-.15rem;
   border: 15px solid transparent;
   border-top:#cfa69d 10px solid;
   color:#fff9d7;
