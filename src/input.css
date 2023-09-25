@@ -13,6 +13,50 @@
 /*  a[data-tool-tip] {
   position: relative;
   } */
+  .getBrandedCushion2:hover::before, 
+  .getBrandedCushion2:hover::after {
+     --scale: 1;
+
+  }
+.getBrandedCushion2::before {
+  content:'';
+  background-color:#419aff;
+ 
+  width:max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding:  .1em .1em .2em .1em;
+  left: 30%;
+  transform: translateX(-50%)
+  translateY(-3.5rem) scale(var(--scale));
+  transform-origin:bottom center;
+  transition: ease-in .35s;
+  border: 0.3px solid #fff9d7;
+  border-radius: 10px;
+  color:#fff9d7;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+}
+.getBrandedCushion2::after {
+  content:'';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  padding:  .3em .0em .2em .1em;
+  left: 30%;
+  transform: translateX(-20px)
+  translateY(-1.65rem) scale(var(--scale));
+  transform-origin:top center;
+  transition:.35s ;
+  border: 15px solid transparent;
+  border-top:#419aff 25px solid;
+  color:#fff9d7;
+  --scale: 0;
+  z-index: 1;
+  margin:auto;
+}
   .getBrandedCushion:hover::before, 
   .getBrandedCushion:hover::after {
      --scale: 1;
