@@ -48,7 +48,7 @@
   padding:  .3em .0em .2em .1em;
   left: 50%;
   transform: translateX(-50%)
-  translateY(-3.35rem) scale(var(--scale));
+  translateY(-3.5rem) scale(var(--scale));
   transform-origin:top center;
   transition:.35s ;
   border: 15px solid transparent;
@@ -275,14 +275,13 @@ width: 25px;
 height: 25px;
 position: absolute;
 left: 50%;
-transform: translateX(-23px) translateY(-88px) scale(var(--scale));
+transform: translateX(-23px) translateY(-38px) scale(var(--scale));
 transform-origin:bottom center;
 transition:1s;
 border: 25px solid transparent;
 border-bottom:wheat  15px solid;
 color:wheat;
-
-
+ 
 --scale: 0;
 z-index: 2;
 }
