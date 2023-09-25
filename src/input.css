@@ -26,11 +26,11 @@
   position: absolute;
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
-  left: 80%;
+  left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin:top center;
+  transform-origin:bottom center;
   transition: ease-in .35s;
-  bottom:2.30rem;
+  bottom:3.20rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
   color:#fff9d7;
@@ -45,7 +45,7 @@
   width: 15px;
   height: 15px;
   position: absolute;
-  padding:  .1em .1em .2em .1em;
+  padding:  .3em .3em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin:top center;
@@ -55,7 +55,8 @@
   border-top:#cfa69d 10px solid;
   color:#fff9d7;
   --scale: 0;
-  z-index: 50;
+  z-index: 12;
+  margin:auto;
 }
   .crabCushion:hover::before, 
   .crabCushion:hover::after {
@@ -249,19 +250,19 @@
 }
 .secretPassword::before {
 content:'';
-background-color: #625d81;
+background-color: #419aff;
 bottom: .25rem;
 width:max-content;
 position: absolute;
 content: attr(data-tool-tip);
 padding:  .1em .1em .2em .1em;
 left: 50%;
-transform: translateX(-30%) translateY(50%) scale(var(--scale));
+transform: translateX(30px) translateY(65px) scale(var(--scale));
 transform-origin: top center;
 transition: 800ms;
 bottom:-2.75rem;
 border-radius: 10px;
-border: .5px solid wheat;
+border: 2px solid wheat;
 color:wheat;
 padding-left: 2rem;
 padding-right: 2rem;
@@ -276,7 +277,7 @@ height: 15px;
 position: absolute;
 padding:  .1em .1em .2em .1em;
 left: 50%;
-transform: translateX(-50%) translateY(20%) scale(var(--scale));
+transform: translateX(127px) translateY(44px) scale(var(--scale));
 transform-origin:bottom center;
 transition:1s;
 bottom:-1.75rem;

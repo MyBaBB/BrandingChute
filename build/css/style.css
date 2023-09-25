@@ -679,6 +679,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -835,6 +839,10 @@ video {
   scroll-margin: 5rem;
 }
 
+.scroll-m-56{
+  scroll-margin: 14rem;
+}
+
 .scroll-mt-10{
   scroll-margin-top: 2.5rem;
 }
@@ -856,6 +864,30 @@ video {
 }
 
 .scroll-mt-\[7rem\]{
+  scroll-margin-top: 7rem;
+}
+
+.scroll-mt-48{
+  scroll-margin-top: 12rem;
+}
+
+.scroll-mt-12{
+  scroll-margin-top: 3rem;
+}
+
+.scroll-mt-14{
+  scroll-margin-top: 3.5rem;
+}
+
+.scroll-mt-16{
+  scroll-margin-top: 4rem;
+}
+
+.-scroll-mt-24{
+  scroll-margin-top: -6rem;
+}
+
+.-scroll-mt-\[-7rem\]{
   scroll-margin-top: 7rem;
 }
 
@@ -1144,6 +1176,10 @@ video {
   padding-top: 3.5rem;
 }
 
+.pt-4{
+  padding-top: 1rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1235,6 +1271,32 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[2\.74rem\]{
+  font-size: 2.74rem;
+}
+
+.text-\[1\.74rem\]{
+  font-size: 1.74rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[\.5rem\]{
+  font-size: .5rem;
+}
+
+.text-\[\.75rem\]{
+  font-size: .75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1287,6 +1349,11 @@ video {
   color: rgb(101 163 13 / var(--tw-text-opacity));
 }
 
+.text-red-100{
+  --tw-text-opacity: 1;
+  color: rgb(254 226 226 / var(--tw-text-opacity));
+}
+
 .text-red-500{
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -1336,6 +1403,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline{
+  text-decoration-line: underline;
+}
+
+.overline{
+  text-decoration-line: overline;
+}
+
 .transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1363,11 +1438,11 @@ video {
   position: absolute;
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
-  left: 80%;
+  left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin:top center;
+  transform-origin:bottom center;
   transition: ease-in .35s;
-  bottom:2.30rem;
+  bottom:3.20rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
   color:#fff9d7;
@@ -1382,7 +1457,7 @@ video {
   width: 15px;
   height: 15px;
   position: absolute;
-  padding:  .1em .1em .2em .1em;
+  padding:  .3em .3em .2em .1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin:top center;
@@ -1392,7 +1467,8 @@ video {
   border-top:#cfa69d 10px solid;
   color:#fff9d7;
   --scale: 0;
-  z-index: 50;
+  z-index: 12;
+  margin:auto;
 }
 
 .crabCushion:hover::before, 
@@ -1589,19 +1665,19 @@ video {
 
 .secretPassword::before {
   content:'';
-  background-color: #625d81;
+  background-color: #419aff;
   width:-moz-max-content;
   width:max-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-30%) translateY(50%) scale(var(--scale));
+  transform: translateX(30px) translateY(65px) scale(var(--scale));
   transform-origin: top center;
   transition: 800ms;
   bottom:-2.75rem;
   border-radius: 10px;
-  border: .5px solid wheat;
+  border: 2px solid wheat;
   color:wheat;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1617,7 +1693,7 @@ video {
   position: absolute;
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-50%) translateY(20%) scale(var(--scale));
+  transform: translateX(127px) translateY(44px) scale(var(--scale));
   transform-origin:bottom center;
   transition:1s;
   bottom:-1.75rem;
@@ -2380,6 +2456,10 @@ label{
   .sm\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-\[1\.74rem\]{
+    font-size: 1.74rem;
   }
 }
 
