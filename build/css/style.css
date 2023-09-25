@@ -751,6 +751,10 @@ video {
   width: 2rem;
 }
 
+.w-\[18rem\]{
+  width: 18rem;
+}
+
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
@@ -763,10 +767,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[18rem\]{
-  width: 18rem;
 }
 
 .max-w-4xl{
@@ -881,10 +881,6 @@ video {
 
 .flex-col{
   flex-direction: column;
-}
-
-.place-items-center{
-  place-items: center;
 }
 
 .content-center{
