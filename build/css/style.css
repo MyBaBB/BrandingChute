@@ -679,10 +679,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
-}
-
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -1385,10 +1381,10 @@ video {
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-50%)
+  translateY(-4rem) scale(var(--scale));
   transform-origin:bottom center;
   transition: ease-in .35s;
-  bottom:3.20rem;
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
   color:#fff9d7;
@@ -1403,17 +1399,17 @@ video {
   width: 15px;
   height: 15px;
   position: absolute;
-  padding:  .3em .3em .2em .1em;
+  padding:  .3em .0em .2em .1em;
   left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-50%)
+  translateY(-3.35rem) scale(var(--scale));
   transform-origin:top center;
   transition:.35s ;
-  top:-.15rem;
   border: 15px solid transparent;
   border-top:#cfa69d 10px solid;
   color:#fff9d7;
   --scale: 0;
-  z-index: 12;
+  z-index: 1;
   margin:auto;
 }
 
@@ -1618,10 +1614,9 @@ video {
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(30px) translateY(65px) scale(var(--scale));
+  transform: translateX(-117px) translateY(95px) scale(var(--scale));
   transform-origin: top center;
   transition: 800ms;
-  bottom:-2.75rem;
   border-radius: 10px;
   border: 2px solid wheat;
   color:wheat;
@@ -1629,21 +1624,19 @@ video {
   padding-right: 2rem;
   --scale: 0;
   z-index: 3;
+  font-size:medium
 }
 
 .secretPassword::after {
   content:'';
-  top: .4rem;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   position: absolute;
-  padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(127px) translateY(44px) scale(var(--scale));
+  transform: translateX(-23px) translateY(-88px) scale(var(--scale));
   transform-origin:bottom center;
   transition:1s;
-  bottom:-1.75rem;
-  border: 15px solid transparent;
+  border: 25px solid transparent;
   border-bottom:wheat  15px solid;
   color:wheat;
   --scale: 0;
