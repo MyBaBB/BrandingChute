@@ -75,7 +75,6 @@
   translateY(-4rem) scale(var(--scale));
   transform-origin:bottom center;
   transition: ease-in .35s;
-  
   border: 0.3px solid #fff9d7;
   border-radius: 10px;
   color:#fff9d7;
