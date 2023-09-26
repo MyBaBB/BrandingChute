@@ -1660,8 +1660,8 @@ video {
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-117px) translateY(95px) scale(var(--scale));
-  transform-origin: top center;
+  transform: translateX(-117px) translateY(-85px) scale(var(--scale));
+  transform-origin: bottom center;
   transition: 800ms;
   border-radius: 10px;
   border: 2px solid wheat;
@@ -1679,11 +1679,11 @@ video {
   height: 25px;
   position: absolute;
   left: 50%;
-  transform: translateX(-23px) translateY(-38px) scale(var(--scale));
-  transform-origin:bottom center;
+  transform: translateX(-23px) translateY(-134px) scale(var(--scale));
+  transform-origin:top center;
   transition:1s;
   border: 25px solid transparent;
-  border-bottom:wheat  15px solid;
+  border-top:wheat  15px solid;
   color:wheat;
   --scale: 0;
   z-index: 2;
