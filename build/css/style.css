@@ -695,6 +695,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .block{
   display: block;
 }
@@ -1417,6 +1421,10 @@ video {
   margin:auto;
 }
 
+.spanContainerDiv {
+  position: relative;
+}
+
 .getBrandedCushion:hover::before, 
   .getBrandedCushion:hover::after {
   --scale: 1;
@@ -1442,25 +1450,7 @@ video {
   padding-right: 2rem;
   --scale: 0;
   z-index: 3;
-}
-
-.getBrandedCushion::after {
-  content:'';
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  padding:  .3em .0em .2em .1em;
-  left: 50%;
-  transform: translateX(-50%)
-  translateY(-3.5rem) scale(var(--scale));
-  transform-origin:top center;
-  transition:.35s ;
-  border: 15px solid transparent;
-  border-top:#cfa69d 10px solid;
-  color:#fff9d7;
-  --scale: 0;
-  z-index: 1;
-  margin:auto;
+  font-size: smaller;
 }
 
 .crabCushion:hover::before, 
