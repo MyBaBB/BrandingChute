@@ -11,7 +11,7 @@
       'borel': ['Borel', 'cursive'],
       'PermanentMarker': ['Permanent Marker', 'cursive'],
       'noto': ['Noto Sans', 'sans-serif'],
-      "rye": ['Rye', 'cursive'],
+        
       'metamorphous': ['Metamorphous', 'cursive'],
       'blackopsone': ['Black Ops One', 'cursive'],
       'iceberg': ['Iceberg', 'cursive'],
