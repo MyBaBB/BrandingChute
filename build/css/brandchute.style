@@ -645,14 +645,14 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .-mb-2{
@@ -855,6 +855,10 @@ video {
 
 .scroll-mt-52{
   scroll-margin-top: 13rem;
+}
+
+.scroll-mt-\[16rem\]{
+  scroll-margin-top: 16rem;
 }
 
 .scroll-mt-\[7rem\]{

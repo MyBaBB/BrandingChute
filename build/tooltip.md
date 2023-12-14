@@ -12,13 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
     <script defer src="https://smtpjs.com/v3/smtp.js"></script>
-     
-    
-    <meta name="expires" content="Wed, 21 June 2021 14:25:27 GMT">
-   
-    <link rel="stylesheet" href="style.css?v=1">
-    <script src="script.js?v=1"></script>
-
   </head>
 
   <body
@@ -72,7 +65,7 @@
           class="text-varLIGHTBEAKTOP hover:text-varLIGHTWING active:text-varLIGHTBLUEFEATHER">
       <div
       class="whoopieCushion1" style="display: inline; position: relative;"
-      data-tool-tip="I Make A Landing Page with Appeal and SEO Performance ">
+      data-tool-tip="A Custom Landing Page with Appeal and SEO Performance ">
 
            
             <span
@@ -113,7 +106,7 @@
              class="text-varLIGHTBEAKTOP hover:text-varLIGHTWING active:text-varLIGHTBLUEFEATHER"> 
       <div
       class="whoopieCushion2" style="display: inline; position: relative;"
-      data-tool-tip="Refine Your Brand">
+      data-tool-tip="You have to Identify Yourself First">
            
             <span
               class=" font-rye"
@@ -217,7 +210,7 @@
               ></a
             > -->
             <br><br>
-            <a href="https://frank-at-thanksgiving.onrender.com" class="w-full py-6 text-center"
+            <a href="#seoBooster" class="w-full py-6 text-center"
               ><span
                 class="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
                 >SEO Booster</span
@@ -247,16 +240,12 @@
 
 
                    <!--  xxxxxxxxx📷🦆xxxxxxxxx -->
-<div class="topdivContainer relative " > 
-  
-  
-    <a href="https://mybabb.com">
+    <a href="#eyeball">
       <div
         class="z-10 mt-4 h-20 w-20 rounded-full hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
         style="
           position: absolute;
-          display: inline-block ;
-          
+          left: 1rem;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
             0 0 10px rgba(0, 0, 0, 0.5);
         "
@@ -277,6 +266,7 @@
         <img src="./img/NotMe.png" alt="Not Me" width="80" height="80">
       </div>
     </a>
+
     <!--                  
   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <main>
@@ -428,7 +418,7 @@
                color: transparent;
                margin-bottom: 4rem;
                z-index: 51;">
-              <span class="whitespace-nowrap font-rye text-[.74rem]"><u>Increase Sales Profesional Web Developer</u></span></h2>
+              <span class="whitespace-nowrap font-rye text-[.74rem]"><u>Increase Sales Proffesion Web Developer</u></span></h2>
             <blockquote
               class="relative content-center rounded-3xl bg-gradient-to-b from-varDARKBLUEFEATHER to-varMEDDUCKHEAD py-12 dark:bg-black"
             >
@@ -454,12 +444,12 @@
                
               <br>
                         <!-- xxxxxxxxxxxxx📷🐎horse shoe maker sectionxxxxxxxxxxxxxxxx -->
-              <a href="#rattlesnakes" data-tool-tip="We can do this">
+              <a href="#nightShippers" data-tool-tip="We can do this">
                   <div class="text-center">
                   
                        
                   <img
-                    src="./img/BusinessGrow.jpeg"
+                    src="./img/balcksmith600x400.jpg"
                     alt="BusyTrapper"
                     width="600"
                     height="400"
@@ -473,7 +463,7 @@
               <div >
                 <br>
                 <p
-                  class=" p-8 text-center text-white text-2xl"
+                  class=" p-1 text-center text-white text-2xl"
                   style="text-shadow: 2px 2px 3px #1c0303;">
                   <span  class="font-rye" >Here's what you can expect when you work with us: </span>
                    <br>
@@ -503,7 +493,8 @@
                   are tailored to your unique needs. Our simple website design
                   is perfect for small businesses on a budget, but we also offer
                   more advanced features and design elements as your business
-                  grows.  
+                  grows. And unlike others, <br>We don't rely on robots to
+                  do all of the work.
                   <br>
     
                   We will work with you every step of the way to ensure that
@@ -513,12 +504,10 @@
                   today to learn more about our
                     <br>
                   <u style="text-decoration-color: rgba(182, 121, 2,1) ">
-                    <div class="relative text-center my-4 text-2xl">
                     <a href="#blueMyBaBB" data-tool-tip="Contact Page"
                      class="font-orbitron text-varLIGHTBLUEFEATHER hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER ">
                       Website Development Services.
                     </a>
-                  </div>
                   </u>
                 </p>
               </div>
@@ -611,7 +600,7 @@
                 style="text-shadow: 1px 1px black"
               ></p>
               <br><br>
-                <div class="p-8">
+
               <p
                 class="text-2xl p-1 text-center"
                 style="text-shadow: 2px 2px 3px #1c0303; color: #fff9d7"
@@ -642,31 +631,28 @@
                 developing ideas and selecting appropriate images for your
                 website.
               </p>
-            </div>
               <br>
-              <div class="text-center p-8">
               <span
-                class="font-serif text-2xl p-0  "
+                class="font-serif text-2xl p-0 text-center"
                 style="text-shadow: 2px 2px 3px #1c0303;
                        color: #fff9d7">
                 We are committed to building a strong relationship with our
                 clients and providing them with the best possible service. If
-              you are ready to take the next step in building your brand,
+                you are ready to take the next step in building your brand,
                 please let us know by
               </span>
                 <a href="https://mybabb.com">
                   <div class=" inline-block relative">
-                     <span class="getBrandedCushion2 font-serif text-2xl" data-tool-tip="Inquire on the Contact Form" style="color: rgba(245, 157, 157,1); text-shadow: 2px 2px 3px #1c0303;">
+                     <span class="getBrandedCushion2 font-serif text-2xl" data-tool-tip="Please inquire on the Contact Form" style="color: rgba(245, 157, 157,1); text-shadow: 2px 2px 3px #1c0303;">
                      "Getting Branded."  
                     </span>
                   </div>
                 </a>
-               <span  class="font-serif text-2xl p-1  "
+               <span  class="font-serif text-2xl p-1 text-center"
                   style="text-shadow: 2px 2px 3px #1c0303; color: #fff9d7">
                   After we can start handing the details of your project over to
                   the developer team.
               </span>
-            </div>
               <h2 
             style="position: absolute;
                margin: 0;
@@ -726,7 +712,7 @@
 
               <a href="#nightShippers">
                 <div
-                  id="rattlesnakes"
+                  id="seoBooster"
                   class="mx-auto flex w-full scroll-m-20 justify-center rounded-3xl bg-varDARKDUCKHEAD p-5"
                   style=
                     "max-width: 600px;
@@ -767,7 +753,7 @@
                   >
                 </div>
               </a>
-              <a href="#securityEye">
+              <a href="#rattlesnakes">
                 <div
                   id="nightShippers"
                   class="mx-auto  w-full scroll-mt-24 justify-center rounded-b-3xl bg-varDARKDUCKHEAD p-5 pt-0"
@@ -878,7 +864,7 @@
                   inset 0 0 40px rgba(0, 0, 0, 0.3);background-image: url(./img/eyeBG.jpg);"> 
        <!-- iris div  --> 
 
-                      <div id="securityEye" class="eyeballdiv scroll-mt-[16rem]"></div>
+                      <div  class="eyeballdiv"></div>
 
                       <div class="eyeballdiv3"></div>
                        
@@ -1113,10 +1099,10 @@
                 height="20">
             </div>
             <a
-              href="https://frankentimer.mybabb.com" data-tool-tip="MyBaBB.com"
+              href="https://frank-kvfw.onrender.com" data-tool-tip="MyBaBB.com"
               class="text-green-600 hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER">
               <div class="mt-4">
-                <u>Franken-Timer.com</u>
+                <u>MyBaBB.com</u>
               </div>
             </a>
           </address>
