@@ -620,6 +620,10 @@ video {
   top: 1rem;
 }
 
+.left-\[200rem\]{
+  left: 200rem;
+}
+
 .z-10{
   z-index: 10;
 }
