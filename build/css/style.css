@@ -604,6 +604,10 @@ video {
   bottom: 0.75rem;
 }
 
+.left-\[200rem\]{
+  left: 200rem;
+}
+
 .right-10{
   right: 2.5rem;
 }
@@ -618,10 +622,6 @@ video {
 
 .top-4{
   top: 1rem;
-}
-
-.left-\[200rem\]{
-  left: 200rem;
 }
 
 .z-10{
