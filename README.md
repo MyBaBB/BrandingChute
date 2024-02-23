@@ -1,4 +1,4 @@
-
+ <!-- note to self Just push it and it will launch to gitgub pages -->
 # Tailwind Portfolio Project
 
 This project showcases my skills and experience with Tailwind CSS, built upon the foundation of Dave Gray’s Tailwind Course. I’ve extensively modified and expanded upon the course material, tailoring it to my specific needs and incorporating additional functionalities.
