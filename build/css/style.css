@@ -1246,6 +1246,14 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[12px\]{
+  font-size: 12px;
+}
+
+.text-\[22px\]{
+  font-size: 22px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1350,6 +1358,21 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-blue-300{
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
+.text-\[whitesmoke\]{
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 
 .transition-all{
@@ -2319,6 +2342,11 @@ label{
 .hover\:text-varMEDBEAKTOP:hover{
   --tw-text-opacity: 1;
   color: rgb(182 121 2 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[whitesmoke\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 
 .active\:bg-varLIGHTBLUEFEATHER:active{
